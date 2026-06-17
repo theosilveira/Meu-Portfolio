@@ -14,62 +14,61 @@ main {
 }
 
 body {
-  background-color: #202022;
+  background-color: #0e0e18;
   color: #d4d4d4;
   font-family: "Commissioner", sans-serif;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  padding-top: 8rem;
-  padding-bottom: 3rem;
+  padding-top: 8em;
+  padding-bottom: 3em;
 }
 
 .conteudoInicio {
-  padding: 2rem;
+  padding: 2em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 1000px;
   width: 75%;
-  margin: 0 auto 2rem auto;
-  animation: fadeIn 0.6s ease;   /* era 60s */
+  margin: auto;
+  animation: fadeIn 0.6s ease;
   transition: transform 0.5s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  margin-bottom: 10rem;
+  gap: 2em;
+  margin-bottom: 10em;
 }
 
 .titulo {
   font-size: 85px;
   text-align: center;
-  padding: 1rem;
+  padding: 0.3em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 1000px;
   width: 90%;
-  margin: 0 auto 3rem auto;
-  animation: fadeIn 0.6s ease;   /* era 60s */
+  margin: 0 auto 0.5em auto;
+  animation: fadeIn 0.6s ease; 
   align-self: center;
 }
 
 #descrição {
-  padding: 2rem;
+  padding: 2em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 900px;
   width: 75%;
-  margin: 0 auto 2rem auto;
-  animation: fadeIn 0.6s ease;   /* era 60s */
+  margin: 0 auto 2em auto;
+  animation: fadeIn 0.6s ease; 
   transition: transform 0.5s ease;
 }
 
 #descrição .conteudo {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2em;
 }
 
 #descrição .texto {
@@ -78,43 +77,41 @@ body {
 
 #descrição .texto h2 {
   white-space: nowrap;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 #descrição:hover, .conteudoInicio:hover, .hab:hover, .contacts:hover {
-  transform: scale(1.02);        /* removeu os transition duplicados */
+  transform: scale(1.02);       
 }
 
 img {
-  width: 220px;              /* levemente menor */
-  flex-shrink: 0;
-  border-radius: 50%;
+  width: 220px;
+  border-radius: 50px;
 }
 
 .hab {
-  padding: 2rem;
+  padding: 2em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 1000px;
   width: 75%;
-  margin: 0 auto 2rem auto;
-  animation: fadeIn 0.6s ease;   /* era 60s */
+  margin: auto;
+  animation: fadeIn 0.6s ease;   
   transition: transform 0.5s ease;
   display: flex;
   align-items: center;
-  gap: 4rem;
-  margin-bottom: 10rem;
+  gap: 2em;
 }
 
 #tituloContato {
   font-size: 85px;
   text-align: center;
-  padding: 1rem;
+  padding: 0.3em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 1000px;
   width: 90%;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 0.5em auto;
   animation: fadeIn 0.6s ease;
   align-self: center;
 }
@@ -124,18 +121,16 @@ img {
   }
 
   .contacts {
-  padding: 2rem;
+  padding: 1.5em;
   background-color: #555555;
   border-radius: 50px;
   max-width: 1000px;
   width: 75%;
-  margin: 0 auto 2rem auto;
-  animation: fadeIn 0.6s ease;   /* era 60s */
+  margin: auto;
+  animation: fadeIn 0.6s ease;   
   transition: transform 0.5s ease;
   display: flex;
   align-items: center;
-  gap: rem;
-  margin-bottom: 10rem;
   justify-content: space-between;
   }
 
@@ -146,18 +141,18 @@ img {
 
 #navbar {
   position: fixed;
-  top: 0rem;
+  top: 0em;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1em 3em;
   background-color: #2b2b2b;
   border-radius: 0px;
   width: 90%;
-  margin-top: 2rem;
+  margin-top: 2em;
   border-radius: 50px;
 }
 
@@ -166,7 +161,7 @@ img {
   font-weight: 700;
   color: #d4d4d4;
   white-space: nowrap;
-  margin-right: 2rem;
+  margin-right: 2em;
   text-decoration: none;
   color: #d4d4d4;
 }
